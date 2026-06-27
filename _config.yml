@@ -33,6 +33,7 @@ header_pages:
   - categories/cs.md
   - categories/internship.md
   - categories/paper-notes.md
+  - categories/thoughts.md
 
 defaults:
   - scope:
