@@ -1,0 +1,23 @@
+---
+---
+
+@import "minima";
+
+// Inline code
+code.highlighter-rouge {
+  background-color: #f3f4f6;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.88em;
+}
+
+// Code block container
+.highlight {
+  border-radius: 4px;
+  margin: 1.2em 0;
+}
+
+// Category post list
+.category-list li {
+  margin-bottom: 0.4em;
+}

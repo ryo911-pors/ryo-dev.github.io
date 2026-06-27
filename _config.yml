@@ -1,0 +1,43 @@
+title: ryo-dev
+author:
+  name: Ryo
+  email: pianoreimu07@gmail.com
+description: Notes on ML, CS, internships, and paper readings.
+url: "https://ryo911-pors.github.io"
+baseurl: ""
+
+theme: minima
+
+minima:
+  skin: classic
+  date_format: "%Y-%m-%d"
+  social_links:
+    - { platform: github, user_url: "https://github.com/ryo911-pors" }
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+header_pages:
+  - about.md
+  - categories/ml.md
+  - categories/cs.md
+  - categories/internship.md
+  - categories/paper-notes.md
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Ryo"
